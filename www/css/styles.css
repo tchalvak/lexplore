@@ -1,0 +1,104 @@
+img {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.entry {
+    margin-bottom: -0.5em;
+}
+.definition-tag {
+    font-size: 12px;
+    width: 100%;
+    font-family: Times;
+    text-align: right;
+    float:right;
+}
+.red {
+    color: #990000;
+}
+.gray {
+    color: #666666;
+}
+.dates {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Times;
+}
+.largetext {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Times;
+}
+a:link {
+    color: #990000;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Times;
+}
+a:visited {
+    color: #990000;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Times;
+}
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 2cm;
+}
+#search-area {
+    margin-top: 1cm;
+    font-size: 32px;
+    font-weight: bold;
+}
+#search-area .left-display {
+    width: 60%;
+    text-align:left;
+    display: inline-block;
+    float: left;
+}
+#search-area .right-display {
+    width: 40%;
+    text-align: right;
+    display: inline-block;
+    float: right;
+}
+#search-area .textbox{
+    vertical-align: text-top;
+    width:230px;
+    height:32px;
+}
+#display-area {    
+    clear: both;
+    width: 800px;
+    text-align: justify;
+}
+#display-area .definition-box {
+    width: 220px;
+    text-align: left;
+}
+#display-area .info-box {
+    padding-right: 160px;
+    padding-left: 160px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+#display-area div {
+    vertical-align: text-top;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 14px;
+}
+.content-present div {
+    border: 1px solid black;
+    padding: 15px;
+}
+#display-area:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
